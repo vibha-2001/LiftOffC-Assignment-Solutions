@@ -13,5 +13,8 @@ int main()
 	circumference=pi*diameter;
 	printf("circumference of the circle is %f", circumference);
 	
+	area=radius*radius*pi;
+	printf("area of the circle is %d\n", area);
+	
 	return 0;
 }
